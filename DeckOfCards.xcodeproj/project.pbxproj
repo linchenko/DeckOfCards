@@ -11,6 +11,7 @@
 		7E971937213D94920057EED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E971935213D94920057EED2 /* Main.storyboard */; };
 		7E971939213D94980057EED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E971938213D94980057EED2 /* Assets.xcassets */; };
 		7E97193C213D94980057EED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E97193A213D94980057EED2 /* LaunchScreen.storyboard */; };
+		7E971949213D9B000057EED2 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E971948213D9B000057EED2 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7E971938213D94980057EED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E97193B213D94980057EED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E97193D213D94980057EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E971948213D9B000057EED2 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 		7E971930213D94920057EED2 /* DeckOfCards */ = {
 			isa = PBXGroup;
 			children = (
+				7E971947213D9AE60057EED2 /* Model */,
+				7E971944213D9A3E0057EED2 /* ModelController */,
 				7E971946213D9A4B0057EED2 /* ViewController */,
 				7E971945213D9A440057EED2 /* UI */,
-				7E971944213D9A3E0057EED2 /* ModelController */,
 				7E971943213D9A300057EED2 /* Resorces */,
 			);
 			path = DeckOfCards;
@@ -91,6 +94,14 @@
 			children = (
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7E971947213D9AE60057EED2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E971948213D9B000057EED2 /* Deck.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E971949213D9B000057EED2 /* Deck.swift in Sources */,
 				7E971932213D94920057EED2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
