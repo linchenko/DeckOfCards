@@ -17,13 +17,13 @@ struct DeckDictionary: Decodable {
 //        case cards = "cards"
 //    }
     
-    struct Card: Decodable{
-        
-        let value: String
-        let suit: String
-        let image: String
-        
-    }
+}
+struct Card: Decodable{
+    
+    let value: String
+    let suit: String
+    let image: String
+    
 }
 
 
